@@ -1,0 +1,173 @@
+{
+  "catalog": {
+    "capitan": "¿Es (o ha sido) capitán con frecuencia?",
+    "balon_oro": "¿Ha ganado el Balón de Oro?",
+    "usa_10": "¿Usa el dorsal 10 en su club o selección?",
+    "juega_seleccion": "¿Es titular habitual en su selección?",
+    "barba": "¿Tiene barba notable?",
+    "cabello_rizado": "¿Tiene el cabello rizado?",
+    "usa_vincha": "¿Suele usar vincha/banda en la cabeza?"
+  },
+  "personajes": [
+    {
+      "nombre": "Lionel Messi",
+      "atributos": {
+        "posicion": "Delantero",
+        "liga": "MLS",
+        "nacionalidad": "Argentina",
+        "pierna_habil": "Izquierda",
+        "club": "Inter Miami",
+        "cabello_color": "castaño",
+        "cabello_longitud": "corto",
+        "complexion": "Proporcionado/a",
+        "barba": true,
+        "cabello_rizado": false,
+        "usa_vincha": false,
+        "capitan": true,
+        "balon_oro": true,
+        "usa_10": true,
+        "juega_seleccion": true
+      },
+      "confirm": [
+        {
+          "attr": "balon_oro",
+          "value": true,
+          "question": "¿Ha ganado el Balón de Oro?"
+        },
+        {
+          "attr": "usa_10",
+          "value": true,
+          "question": "¿Usa el dorsal 10?"
+        }
+      ]
+    },
+    {
+      "nombre": "Cristiano Ronaldo",
+      "atributos": {
+        "posicion": "Delantero",
+        "liga": "Saudi Pro League",
+        "nacionalidad": "Portugal",
+        "pierna_habil": "Derecha",
+        "club": "Al Nassr",
+        "cabello_color": "negro",
+        "cabello_longitud": "corto",
+        "complexion": "Musculoso/a",
+        "barba": false,
+        "cabello_rizado": false,
+        "usa_vincha": false,
+        "capitan": true,
+        "balon_oro": true,
+        "usa_10": false,
+        "juega_seleccion": true
+      },
+      "confirm": [
+        {
+          "attr": "balon_oro",
+          "value": true,
+          "question": "¿Tiene Balones de Oro?"
+        },
+        {
+          "attr": "capitan",
+          "value": true,
+          "question": "¿Suele ser capitán?"
+        }
+      ]
+    },
+    {
+      "nombre": "Kylian Mbappe",
+      "atributos": {
+        "posicion": "Delantero",
+        "liga": "LaLiga",
+        "nacionalidad": "Francia",
+        "pierna_habil": "Derecha",
+        "club": "Real Madrid",
+        "cabello_color": "negro",
+        "cabello_longitud": "corto",
+        "complexion": "Proporcionado/a",
+        "barba": false,
+        "cabello_rizado": false,
+        "usa_vincha": false,
+        "capitan": false,
+        "balon_oro": false,
+        "usa_10": false,
+        "juega_seleccion": true
+      },
+      "confirm": [
+        {
+          "attr": "juega_seleccion",
+          "value": true,
+          "question": "¿Es titular en la selección?"
+        },
+        {
+          "attr": "posicion",
+          "value": "Delantero",
+          "question": "¿Es delantero?"
+        }
+      ]
+    },
+    {
+      "nombre": "Erling Haaland",
+      "atributos": {
+        "posicion": "Delantero",
+        "liga": "Premier League",
+        "nacionalidad": "Noruega",
+        "pierna_habil": "Izquierda",
+        "club": "Manchester City",
+        "cabello_color": "rubio",
+        "cabello_longitud": "medio",
+        "complexion": "Robusto/a",
+        "barba": false,
+        "cabello_rizado": false,
+        "usa_vincha": true,
+        "capitan": false,
+        "balon_oro": false,
+        "usa_10": false,
+        "juega_seleccion": true
+      },
+      "confirm": [
+        {
+          "attr": "usa_vincha",
+          "value": true,
+          "question": "¿Usa vincha/banda?"
+        },
+        {
+          "attr": "pierna_habil",
+          "value": "Izquierda",
+          "question": "¿Es zurdo?"
+        }
+      ]
+    },
+    {
+      "nombre": "Guillermo Ochoa",
+      "atributos": {
+        "posicion": "Portero",
+        "liga": "Serie A",
+        "nacionalidad": "México",
+        "pierna_habil": "Derecha",
+        "club": "Salernitana",
+        "cabello_color": "castaño",
+        "cabello_longitud": "largo",
+        "complexion": "Proporcionado/a",
+        "barba": false,
+        "cabello_rizado": true,
+        "usa_vincha": true,
+        "capitan": true,
+        "balon_oro": false,
+        "usa_10": false,
+        "juega_seleccion": true
+      },
+      "confirm": [
+        {
+          "attr": "posicion",
+          "value": "Portero",
+          "question": "¿Es portero?"
+        },
+        {
+          "attr": "cabello_rizado",
+          "value": true,
+          "question": "¿Tiene el cabello rizado?"
+        }
+      ]
+    }
+  ]
+}
